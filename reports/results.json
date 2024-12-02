@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "get-api-route;get-request",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Get Request",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Envio uma requisição do tipo \"get\"",
+            "match": {
+              "location": "src\\test\\steps\\getApi.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141850899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Recebo uma resposta com status code 200",
+            "match": {
+              "location": "src\\test\\steps\\getApi.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1208300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Valido que o primeiro nome da lista é \"Michael\"",
+            "match": {
+              "location": "src\\test\\steps\\getApi.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12435000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "get-api-route",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Get Api Route",
+    "tags": [],
+    "uri": "src\\test\\features\\getApi.feature"
+  }
+]
